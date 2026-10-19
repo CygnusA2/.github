@@ -1,34 +1,50 @@
 # Cygnus-A²
 
-### The next dimension of digital banking
+**AI-native asset intelligence and governed liquidity infrastructure**
 
-Cygnus-A² develops technology for governed, asset-backed liquidity. Our work brings together asset intelligence, explainable decision systems, digital asset infrastructure, and private banking experiences to improve how verified illiquid assets are assessed and financed.
+[Website](https://www.cygnus-a.technology/) · [Technical overview](https://github.com/CygnusA2/CygnusA2) · [Vault Private prototype](https://github.com/CygnusA2/Vault-Private-Prototype)
 
-## What we are building
+Cygnus-A² develops technology for verified illiquid-asset intelligence, explainable credit decision support, and controlled collateral workflows. Our initial focus is **real estate**.
 
-| Workstream | Current scope |
-| --- | --- |
-| **Vault Private** | Client experience being prepared as the external-user iOS TestFlight MVP; current public source is an earlier demonstration snapshot. |
-| **Trinity** | Conversational private banking intelligence, with demonstration and integration work. |
-| **THAL3S 16** | Research and development in valuation, predictive intelligence, risk, and credit-policy decisioning. |
-| **Digital asset infrastructure** | Architecture and research for tokenization and controlled liquidity workflows. |
+## Architecture: KNOW → REASON → EXECUTE
 
-These workstreams are at different stages of development. Public repositories show selected prototypes and research; core implementation remains private.
+```mermaid
+flowchart LR
+    A[KNOW: Verified asset evidence] --> B[REASON: Bounded AI assistance]
+    B --> C{Policy and evidence gates}
+    C -->|Permitted| D[EXECUTE: Governed workflow]
+    C -->|Insufficient evidence| E[Review or request data]
+```
 
-## Selected public work
+*Target architecture: not a claim of automated live lending or settlement. Probabilistic model output never becomes an authoritative fact or credit approval without independent controls.*
 
-- [Vault Private](https://github.com/CygnusA2/Vault-Private-Prototype) — the intended iOS MVP destination; its public source currently shows an earlier prototype.
-- [Antigravity Causal Research](https://github.com/CygnusA2/Antigravity-Causal-Research) — theoretical work on causal intelligence and privacy-preserving digital asset architecture.
-- [Technical overview](https://github.com/CygnusA2/CygnusA2) — the broader engineering direction.
+## Current development
 
-## Development stage
+| Workstream | Scope | Status |
+|---|---|---|
+| **Vault Private** | iOS-first private client journey, onboarding, asset intelligence | [Earlier public prototype](https://github.com/CygnusA2/Vault-Private-Prototype); new integration work private |
+| **THAL3S 16** | Evidence-backed valuation, risk assessment, scenario analysis, policy-governed indicative LTV | R&D; benchmark results not yet published |
+| **Trinity** | Conversational portfolio and liquidity intelligence | Demo and integration work, not a live banking service |
+| **Digital asset infrastructure** | Tokenisation and collateral workflow research | Public simulations and private research; no live funded loan claim |
 
-Persona, Plaid, and other API work is staged for validation in the private E2E project before promotion to Vault Private. The current public demonstration of tokenization and liquidity is simulated. Live real-estate tokenization and funded liquidity are later phases, subject to separate technical and operational validation.
+## Explore our work
+
+- [Vault Private iOS MVP development](https://github.com/CygnusA2/Vault-Private-Prototype) — TypeScript, React Native / Expo, Node.js; earlier prototype and candid integration status.
+- [Antigravity Causal Research](https://github.com/CygnusA2/Antigravity-Causal-Research) — graph-grounded reasoning and privacy-preserving settlement research.
+- [Technical overview](https://github.com/CygnusA2/CygnusA2) — KNOW / REASON / EXECUTE design and governance.
+
+## AI research direction
+
+We are evaluating **Meta Muse Glimmer** and **Muse Spark** for bounded financial reasoning and evidence explanation inside THAL3S 16. Proposed evaluation covers output validity, consistency, unsupported claims, latency, cost, data provenance, and abstention when evidence is insufficient. We will publish no production integration or performance claims until verified.
 
 ## Engineering principles
 
-Verified inputs and provenance. Clear policy boundaries. Human oversight for consequential decisions. Privacy by design. Reproducible tests and auditable outcomes.
+- **Verified inputs:** source attribution, timestamps, freshness and permission to use data.
+- **Deterministic authority:** independent arithmetic, risk formulas and explicit credit-policy gates.
+- **Evaluable AI:** structured output schemas, repeatable tests and measured model comparisons.
+- **Privacy and security:** least-privilege integration; no client secrets or sensitive client data in public examples.
+- **Human oversight:** manual review for unresolved title, legal, policy or high-consequence questions.
 
-Explore our work at [cygnus-a.technology](https://www.cygnus-a.technology/).
+Explore [cygnus-a.technology](https://www.cygnus-a.technology/).
 
-<sub>Public research and prototypes do not represent the availability of regulated banking, lending, or investment services. Repository-specific licensing and confidentiality terms apply.</sub>
+> Public prototypes and research do not represent operating regulated banking, lending, investment, on-chain property issuance or funded liquidity services. Confidential implementations remain private; repository-specific licensing applies.
