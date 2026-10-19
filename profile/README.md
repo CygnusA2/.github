@@ -1,34 +1,39 @@
 # Cygnus-A²
 
-### The next dimension of digital banking
+### AI-native infrastructure for asset intelligence and governed liquidity
 
-Cygnus-A² develops technology for governed, asset-backed liquidity. Our work brings together asset intelligence, explainable decision systems, digital asset infrastructure, and private banking experiences to improve how verified illiquid assets are assessed and financed.
+Cygnus-A² develops technology for ultra-high-net-worth clients to understand verified illiquid assets, assess their potential as collateral and explore faster access to liquidity. Our approach combines data provenance, explainable AI, deterministic credit-policy controls and a private-client experience.
 
-## What we are building
+**[Website](https://www.cygnus-a.technology/)** · **[Technical architecture](https://github.com/CygnusA2/CygnusA2)**
 
-| Workstream | Current scope |
-| --- | --- |
-| **Vault Private** | Client experience being prepared as the external-user iOS TestFlight MVP; current public source is an earlier demonstration snapshot. |
-| **Trinity** | Conversational private banking intelligence, with demonstration and integration work. |
-| **THAL3S 16** | Research and development in valuation, predictive intelligence, risk, and credit-policy decisioning. |
-| **Digital asset infrastructure** | Architecture and research for tokenization and controlled liquidity workflows. |
+## KNOW → REASON → GATE → EXECUTE
 
-These workstreams are at different stages of development. Public repositories show selected prototypes and research; core implementation remains private.
+- **KNOW** — normalize source-backed asset, ownership, market and risk data.
+- **REASON** — explore graph-grounded analysis and evidence-supported explanations.
+- **GATE** — apply explicit policy constraints, completeness checks and human escalation independent of any language model.
+- **EXECUTE** — research governed tokenization and liquidity workflows only after applicable technical, legal and business controls.
 
-## Selected public work
+AI-generated explanations are not authoritative valuations, confirmations of clean title, credit approvals or transfers of value.
 
-- [Vault Private](https://github.com/CygnusA2/Vault-Private-Prototype) — the intended iOS MVP destination; its public source currently shows an earlier prototype.
-- [Antigravity Causal Research](https://github.com/CygnusA2/Antigravity-Causal-Research) — theoretical work on causal intelligence and privacy-preserving digital asset architecture.
-- [Technical overview](https://github.com/CygnusA2/CygnusA2) — the broader engineering direction.
+## Selected work
 
-## Development stage
+| Workstream | Purpose | Current maturity |
+| --- | --- | --- |
+| **Vault Private** | iOS private-client product experience | Public early prototype; private integration and E2E work |
+| **THAL3S 16** | Valuation intelligence, risk analysis and credit-policy orchestration | Research and development |
+| **Trinity** | Conversational private-client intelligence | Demonstration and integration work |
+| **Digital asset infrastructure** | Governed asset representation and prospective collateral workflows | Architecture and simulation |
 
-Persona, Plaid, and other API work is staged for validation in the private E2E project before promotion to Vault Private. The current public demonstration of tokenization and liquidity is simulated. Live real-estate tokenization and funded liquidity are later phases, subject to separate technical and operational validation.
+## Public technical repositories
 
-## Engineering principles
+- [Vault Private Prototype](https://github.com/CygnusA2/Vault-Private-Prototype) — early product workflows, including clearly identified simulation and integration limitations.
+- [Cygnus-A² Technical Overview](https://github.com/CygnusA2/CygnusA2) — KNOW → REASON → EXECUTE architecture, governing principles and research direction.
+- [Antigravity Causal Research](https://github.com/CygnusA2/Antigravity-Causal-Research) — graph-grounded reasoning and privacy-preserving digital-asset research.
 
-Verified inputs and provenance. Clear policy boundaries. Human oversight for consequential decisions. Privacy by design. Reproducible tests and auditable outcomes.
+## Current engineering priorities
 
-Explore our work at [cygnus-a.technology](https://www.cygnus-a.technology/).
+Our MVP work focuses on identity, financial-data connectivity, evidence-grounded real-estate intelligence, reproducible risk calculations and explainable client experiences. Experimental AI components are evaluated separately from authoritative valuation arithmetic, credit policy and transaction execution.
 
-<sub>Public research and prototypes do not represent the availability of regulated banking, lending, or investment services. Repository-specific licensing and confidentiality terms apply.</sub>
+**Development disclosure:** Public repositories contain selected research and prototypes; proprietary systems and end-to-end integrations are private. Screens, API configurations and simulated workflows do not imply live banking, lending, tokenization, funds disbursement or regulatory authorization.
+
+We prioritize privacy, minimal permissions, auditable evidence, deterministic controls and repeatable tests.
